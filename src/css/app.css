@@ -1,0 +1,29 @@
+html,
+body {
+  width: 100%;
+  height: inherit;
+}
+
+.logo {
+  width: 120px;
+  height: 31px;
+  background: #fff;
+  margin: 16px 24px 16px 0;
+  float: left;
+
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#app, .layout, .ant-layout-content, .ant-layout-content {
+  height: 100%;
+}
+
+.ant-layout-content {
+  background-color: #fff;
+}
+
+.ant-layout-sider {
+  border-right: 1px solid #ccc;
+}

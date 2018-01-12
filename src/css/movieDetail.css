@@ -1,0 +1,21 @@
+.title-img {
+  text-align: center;
+}
+
+.casts ul {
+  display: flex;
+  list-style: none;
+}
+
+.casts li {
+  margin-right: 20px;
+  text-align: center;
+}
+
+.casts img {
+  width: 100px;
+}
+
+.title {
+  font-size: 20px;
+}

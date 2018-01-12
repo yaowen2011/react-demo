@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- 实现网站图片防盗链的功能 -->
+  <!-- 
+    当没有指定这个meta标签的时候, 浏览器会自动发送一个请求头: referer:http://localhost:3000/
+    豆瓣图片服务器会根据这个 referer 请求头, 来判断 http://localhost:3000/ 是否是豆瓣图片服务器允许返回图片的域名, localhost 不再 豆瓣图片服务器 允许范围之内, 因此, 没有给我们返回图片
+
+    当我们添加这个 meta 标签后, 浏览器不会自动再发送 referer 这个请求头, 豆瓣图片服务器就会将图片给返回
+  -->
+  <meta name="referrer" content="never">
+  <title>react-basic</title>
+</head>
+
+<body>
+  <!-- 将来由 react 创建的内容，都会放到这个元素中 -->
+  <div id="app"></div>
+</body>
+
+</html>
