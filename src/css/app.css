@@ -7,13 +7,13 @@ body {
 .logo {
   width: 120px;
   height: 31px;
-  background: #fff;
+  background: skyblue;
   margin: 16px 24px 16px 0;
   float: left;
 
-  background-image: url(../images/logo.png);
+  /* background-image: url(../images/logo.png); */
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 3px;
 }
 
 #app, .layout, .ant-layout-content, .ant-layout-content {

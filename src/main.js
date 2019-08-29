@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom'
 
 import MovieContainer from './components/App'
 
+import './data/index.js'
+
 ReactDOM.render(
   <MovieContainer></MovieContainer>,
   document.getElementById('app')

@@ -47,7 +47,7 @@ export default class MovieContainer extends Component {
       <Router>
         <Layout className="layout">
           <Header>
-            <div className="logo" />
+            <div className="logo" >logo</div>
             <Menu
               theme="dark"
               mode="horizontal"
